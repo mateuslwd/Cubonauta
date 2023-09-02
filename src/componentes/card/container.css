@@ -1,0 +1,22 @@
+.container_Card{
+
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.holder_Card{
+
+    width: 90%;
+
+    margin-top: 15dvh;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 4dvh;
+    place-items: center;
+
+}

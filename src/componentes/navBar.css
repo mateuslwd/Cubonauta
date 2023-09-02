@@ -1,0 +1,22 @@
+.navBar{
+
+    width: 100dvw;
+    height: 12dvh;
+    background-color: rgb(236, 236, 236);
+
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icon_navBar{
+
+    width: 35px;
+    height: 35px;
+    background-color: rgb(173, 173, 173);
+
+}
