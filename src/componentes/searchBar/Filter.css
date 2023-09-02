@@ -1,0 +1,103 @@
+.container_Filter{
+
+    width: 100dvw;
+    height: 40dvh;
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 0 0 40px 40px;
+
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+    color: rgb(136, 136, 136);
+
+}
+
+.container_Filter .meth{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_Filter h1{
+    font-size: 1.3em;
+}
+
+.container_Filter h2{
+    font-size: 1em;
+    color: rgb(179, 179, 179);
+}
+
+.container_Filter span{
+
+    font-size: .6em;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 20px;
+    padding: 3px 9px;
+    margin: 2px 2px;
+
+}
+
+.container_Filter .cube{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.container_Filter .cube .cube_selector{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container_Filter .cube .controls_cube_holder{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 60%;
+
+}
+
+.container_Filter .cube .control_Cube{
+
+    width: 20px;
+    height: 20px;
+    background-color: red;
+
+}
+
+.container_Filter .cube img{
+
+    width: 60%;
+
+}
+
+.container_Filter .cube .arrow{
+
+    width: 20px;
+    height: 20px;
+    background-color: rgb(201, 201, 201);
+
+}
+
+.container_Filter .filters_Holder{
+
+    margin-top: 10px;
+
+    width: 80%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}

@@ -1,26 +1,31 @@
-.searchBar{
+.search{
 
     position: fixed;
     top: 0;
 
+}
+
+.search hr{
+    border-color: rgba(244, 244, 244, 0.669);
+}
+
+.searchBarOpen{
+
     width: 100%;
-    height: 15dvh;
-    background-image: linear-gradient(rgb(155, 155, 155), rgba(255, 255, 255, 0));
+    height: 10dvh;
+    background-color: white;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-}
-
-.filterOpened{
-
-    background-color: white;
-    background-image: none;
+    flex-direction: column;
 
 }
 
-.container{
+.searchBarOpen .container{
+
+    border: 1px solid rgb(195, 195, 195);
 
     padding: 10px;
     background-color: white;
@@ -34,10 +39,9 @@
     width: 80%;
     height: 30%; 
 
-    
 }
 
-.container input{
+.searchBarOpen .container input{
     
     color: rgb(154, 154, 154);
     
@@ -47,21 +51,21 @@
 
 }
 
-.container input:focus{
+.searchBarOpen .container input:focus{
     outline: none;
 }
 
-.VL{
+.searchBarOpen .VL{
     width: 1px;
     height: 100%;
     background-color: rgb(182, 182, 182);
     margin: 0 20px;
 }
 
-.icon{
+.searchBarOpen .icon{
 
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: rgb(200, 200, 200);
 
 }
