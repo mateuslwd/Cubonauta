@@ -1,0 +1,85 @@
+.searchBar {
+  /*Cor*/
+  background-image: linear-gradient(
+    rgba(61, 61, 61, 0.694),
+    rgba(255, 255, 255, 0)
+  );
+  /*Tamanho*/
+  width: 100dvw;
+  height: 17dvh;
+
+  /*Posicionament0*/
+  position: fixed;
+  top: 0;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*Animação*/
+  transition: all 0.5s ease;
+}
+
+.searchBar__holder {
+  /*Tamanho*/
+  width: 75dvw;
+  height: 7dvh;
+
+  /*Cor*/
+  background-color: rgb(255, 255, 255);
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /*Borda*/
+  border-radius: 100px;
+  border: 0;
+
+  /*Animação*/
+  transition: all 0.5s ease;
+
+  /*Posicionamento*/
+  position: absolute;
+}
+
+.searchBar__holder--active {
+  border: 1px solid rgb(171, 171, 171);
+}
+
+.searchBar__input {
+  width: 60%;
+  border: 0;
+  outline: none;
+}
+
+.searchBar__divisor {
+  /*Tamanho*/
+  width: 1px;
+  height: 55%;
+
+  /*Cor*/
+  background-color: rgb(171, 171, 171);
+
+  /*Borda*/
+  border-radius: 2px;
+}
+
+.searchBar__seletor {
+  /*Tamanho*/
+  width: 70dvw;
+  height: 10dvh;
+
+  /*Posicionamento*/
+  position: relative;
+  top: 15dvh;
+  margin: auto;
+  z-index: -1;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,51 @@
+.filterPopUp__filters {
+  /*Tamanho*/
+  width: 50%;
+  height: 100%;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+
+  /*Borda a direita*/
+  border-right: 1px solid rgb(171, 171, 171);
+}
+
+.filter__method {
+  /*Posicionamento do texto*/
+  text-align: center;
+}
+
+.filter__method h1 {
+  /*Tamanho do texto*/
+  font-size: 1.3em;
+
+  /*Cor do texto*/
+  color: rgb(171, 171, 171);
+}
+
+.filter__method h2 {
+  /*Tamanho do texto*/
+  font-size: 1.5em;
+
+  /*Cor do texto*/
+  color: rgb(111, 111, 111);
+}
+
+.filter__container {
+  /*Limita largura*/
+  min-width: 135px;
+  max-width: 220px;
+
+  /*Largura*/
+  width: 70%;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  text-align: center;
+}

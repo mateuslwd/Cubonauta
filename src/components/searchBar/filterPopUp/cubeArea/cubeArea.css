@@ -1,0 +1,81 @@
+.filterPopUp__cube {
+  /*Tamanho*/
+  width: 50%;
+  height: 100%;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cube__header {
+  /*Posicionamento do texto*/
+  text-align: center;
+}
+
+.cube__header h1 {
+  /*Tamanho do texto*/
+  font-size: 1.5em;
+
+  /*Cor do texto*/
+  color: rgb(111, 111, 111);
+}
+
+.cube__header h2 {
+  /*Tamanho do texto*/
+  font-size: 1em;
+
+  /*Cor do texto*/
+  color: rgb(171, 171, 171);
+}
+
+.cube__selector {
+  /*Tamanho*/
+  width: 90%;
+
+  min-width: 100px;
+  max-width: 200px;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cube__selector__arrow {
+  /*Tamanho*/
+  font-size: 1.5em;
+
+  /*Color*/
+  color: #6f6f6f;
+
+  /*Posicionamento*/
+  position: relative;
+}
+
+.cube__selector img {
+  /*Tamanho*/
+  width: 70%;
+
+  /*Espaçamento*/
+  margin: 0px 0;
+}
+
+.cube__actions {
+  /*Tamanho*/
+  width: 80%;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.cube__actions__act {
+  /*Tamanho*/
+  font-size: 1.7em;
+
+  /*Color*/
+  color: rgb(171, 171, 171);
+}

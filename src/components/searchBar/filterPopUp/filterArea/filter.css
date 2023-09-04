@@ -1,0 +1,33 @@
+.filter__container__filters {
+  /*Cor da fonte*/
+  color: rgb(171, 171, 171);
+
+  /*Tamanho*/
+  height: fit-content;
+
+  /*Espaçamento*/
+  padding: 5px 7px;
+
+  /*Borda*/
+  border: 1px solid rgb(171, 171, 171);
+  border-radius: 100px;
+
+  /*Animação*/
+  transition: all 0.5s ease;
+}
+
+.filter__container__filters:hover {
+  /*Cor da fonte*/
+  color: rgb(255, 255, 255);
+
+  /*Cor*/
+  background-color: rgb(171, 171, 171);
+}
+
+.filter__container__filters--active {
+  /*Cor da fonte*/
+  color: rgb(255, 255, 255);
+
+  /*Cor*/
+  background-color: rgb(171, 171, 171);
+}

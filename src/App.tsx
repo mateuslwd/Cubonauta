@@ -1,23 +1,11 @@
-import SearchBar from './componentes/searchBar/searchBar'
-import NavBar from './componentes/navBar'
+import SearchBar from "./components/searchBar/searchBar";
 
-import CardContainer from './componentes/card/container'
-
-function App(){
-
+function App() {
   return (
-    <div>
-      <CardContainer></CardContainer>
-
-      <div>
-        <SearchBar></SearchBar>
-
-        <NavBar></NavBar>
-      </div>
-
-    </div>
-  )
-
+    <>
+      <SearchBar />
+    </>
+  );
 }
 
-export default App 
+export default App;

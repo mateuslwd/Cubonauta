@@ -1,0 +1,50 @@
+.filterPopUp {
+  /*Variaveis*/
+  --height: 60dvh;
+  --dead-area: 17dvh;
+
+  /*Tamanho*/
+  width: 100dvw;
+
+  min-width: 350px;
+
+  height: var(--height);
+
+  /*Cor*/
+  background-color: rgb(255, 255, 255);
+
+  /*Bordas*/
+  border-radius: 0;
+
+  /*Posicionamento*/
+  position: absolute;
+  top: calc(var(--height) * -1);
+
+  /*Animação*/
+  transition: all 0.5s ease;
+}
+
+.filterPopUp--active {
+  /*Posicionamento*/
+  top: 0dvh;
+
+  /*Bordas*/
+  border-radius: 0 0 30px 30px;
+}
+
+.filterPopUp__deadArea {
+  /*Tamanho*/
+  width: 100dvw;
+  height: var(--dead-area);
+
+  border-bottom: 1px solid rgb(171, 171, 171);
+}
+
+.filterPopUp__area {
+  /*Tamanho*/
+  width: 100dvw;
+  height: calc(var(--height) - var(--dead-area));
+
+  /*Posicionamento interno*/
+  display: flex;
+}

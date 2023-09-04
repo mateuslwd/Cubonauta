@@ -1,0 +1,20 @@
+.searchBar__seletor__option {
+  /*Espaçamento*/
+  padding: 5px 15px;
+  /*Borda*/
+  border: 2px solid rgb(224, 61, 61);
+  border-radius: 100px;
+  /*Cor da fonte*/
+  color: rgb(224, 61, 61);
+  /*Peso da fonte*/
+  font-weight: bolder;
+  /*Animação*/
+  transition: all 0.5s ease;
+}
+
+.searchBar__seletor__option--active {
+  /*Cor*/
+  background-color: rgb(224, 61, 61);
+  /*Cor da fonte*/
+  color: white;
+}
