@@ -1,0 +1,49 @@
+.card {
+  /*Tamanho*/
+  width: 50%;
+  max-width: 130px;
+
+  height: 35dvh;
+
+  /*Cor*/
+  background-color: white;
+
+  /*Posicionamento interno*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+
+.card__span {
+  /*Tamanho*/
+  width: 80%;
+
+  /*Font spacing*/
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  /*Font*/
+  font-weight: bolder;
+  color: rgb(111, 111, 111);
+}
+
+.card__img {
+  /*Tamanho*/
+  width: 80%;
+
+  /*Espaçamento*/
+  margin: 10px 0;
+}
+
+.card__actions {
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

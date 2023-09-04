@@ -1,0 +1,14 @@
+.checkMark {
+  /*Tamanho da fonte*/
+  font-size: 2.4em;
+  /*Cor da fonte*/
+  color: rgb(171, 171, 171);
+
+  /*Animação*/
+  transition: all 0.5s ease;
+}
+
+.checkMark--active {
+  /*Cor da fonte*/
+  color: rgb(71, 124, 203);
+}
